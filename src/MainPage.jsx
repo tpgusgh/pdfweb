@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { Document, Page, pdfjs } from "react-pdf";
 
-// ✅ 직접 workerSrc 설정 (pdfjs-dist 4.x 대응)
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-// ✅ PDF 파일 경로
 import samplePDF from "./pdf/ch1.pdf";
 
 export default function MainPage() {
