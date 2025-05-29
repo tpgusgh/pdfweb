@@ -45,7 +45,6 @@ export default function MainPage() {
           height: 720,
           overflow: "auto",
           marginTop: "80px",
-          border: "1px solid red",
         }}
       >
         <ErrorBoundary>
