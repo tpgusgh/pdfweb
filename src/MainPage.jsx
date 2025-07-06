@@ -47,7 +47,6 @@ export default function MainPage() {
           marginTop: "80px",
         }}
       >
-      {/* 여기는 주석 */}
         <ErrorBoundary>
           <Document
             file="/pdf/ch1.pdf"
